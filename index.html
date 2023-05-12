@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface</title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <style>
+        body {
+            background-color: palevioletred;
+            font-size: 33px;
+            text-align: center;
+        }
+
+        button {
+            background-color: aquamarine;
+            font-size: 33px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        button:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="Address_of_reviever">Address</label>
+    <input type="text" id="Address_of_reviever">
+    <label for="MintCount" id="amountMint">Amount</label>
+    <input type="number" id="MintCount"></br>
+    <button onclick="connect()">Connect Wallet</button>
+    <button onclick="Audio()">Audio</button>
+    <button onclick="Giff()">Giff</button>
+    <button onclick="Video()">Video</button>
+    <button onclick="Image()">Image</button>
+</body>
+<script>
+
+
+    //Connecting to metamask and Polygon
+
+    const connect = async () => {
+        const provider = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.g.alchemy.com/v2/xVQGGcSOaQt5ASujUxcAk4PwvvmBsfDZ");
+        console.log(provider);
+
+        //Metamask
+        await window.ethereum.enable();
+        const signer = new ethers.providers.Web3Provider(window.ethereum).getSigner();
+        const address = await signer.getAddress();
+
+        console.log(`connected to Mumbai with ${address}`);
+        return { provider, signer, address }
+
+    }
+</script>
+<script src="app.js"></script>
+
+
+</html>
