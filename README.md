@@ -4,7 +4,7 @@
 ## Tools needed
 NPM \
 ethers.js\
-Remix Ide for smart contracts\
+Remix Ide for smart contracts(No installation needed as its an online tool)\
 Metamask
 
 
@@ -13,7 +13,8 @@ Metamask
 
 ## Documentation Contract Deployent
 
-[Documentation](https://indigg.notion.site/The-NFT-doc-aeb32347ad0a4bb8a59577b1d1074c3d)
+[Notion Doc for Smart Contract](https://indigg.notion.site/The-NFT-doc-aeb32347ad0a4bb8a59577b1d1074c3d)
+[Metamask Installation](https://support.metamask.io/hc/en-us/articles/360015489531-Getting-started-with-MetaMask)
 
 
 ## Deployment
@@ -26,6 +27,7 @@ Download the dependencies
 ```
 
 Then add Contract Addresses and Abi's to the app.js File
+The contract should be deployed By your address only so that you can mint the NFTS
 
 ## Start the local server
 
