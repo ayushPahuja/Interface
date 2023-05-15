@@ -1,0 +1,10 @@
+{
+    "Title": "The title of Video NFT",
+    "image" : "ipfs://QmeztymXBnAjWEDshHswxcegYbPMLywPvdjasXYaySqkC6/4.mp4",
+    "Description": "A Video NFT",
+    "Creator": "The name of the creator of the NFT",
+    "Date": "1683788219841",
+    "Type": "mp4",
+    "Media URL": "ipfs://QmeztymXBnAjWEDshHswxcegYbPMLywPvdjasXYaySqkC6/4.mp4",
+    "Media Type": "Video"
+}
