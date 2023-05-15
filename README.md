@@ -34,8 +34,8 @@ The contract should be deployed By your address only so that you can mint the NF
 
 ### Change the name and Symbol of the NFT'S in the contract constructor.
 
-### After Compiling the contract in the Remixe IDE click on the copy ABI button and add paste it to the respective abi in app.js.
-### Similarly after deploying the contract copy the contract address and paste it in the app.js.
+ After Compiling the contract in the Remixe IDE click on the copy ABI button and add paste it to the respective abi in app.js.
+ Similarly after deploying the contract copy the contract address and paste it in the app.js.
 
 ### Preferred IPFS SERVICE IS Pinata
 MetaHashes are provided in the Notion-Doc.
