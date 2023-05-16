@@ -46,8 +46,7 @@ ipfs://YOUR-HASH/
 #### Note: There are only five nfts that you can mint as we only have 5 in the resources.
 
 ### Steps to DEPLOY and test THE Interface
-Step:1 Clone this repository 
- git@github.com:ayushPahuja/Interface.git \ 
+Step:1 Clone this repository\
 Step:2 Upload the resources to your Pinata IPFS services, Upload the metadata folders and the media folders.\
 Step:3 Copy the hash of the metadata folders uploaded as they will bwe used to locate and mint the nfts\
 Step:4 Now navigate to the Remixe Ide in the browser and paste the contract provided in this repository\
