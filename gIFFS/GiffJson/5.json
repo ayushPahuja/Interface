@@ -1,0 +1,11 @@
+{
+    "Title": "The title of the NFT",
+    "image": "ipfs://QmUrfFdZokqivR76D9XGaw2htx3nApc9mcP4mjQh6nBzrh/5.gif",
+    "Description": "A Gif NFT",
+    "Creator": "The name of the creator of the NFT",
+    "Date": "1683788219841",
+    "Type": "image",
+    "Media URL": "ipfs://QmUrfFdZokqivR76D9XGaw2htx3nApc9mcP4mjQh6nBzrh/5.gif",
+    "Media Type": "Gif",
+    "Thumbnail": "ipfs://QmNhPitMCuPcyADB9gXZQjUazNdrfp1YQFCJGNLsqKYmMB/"
+}

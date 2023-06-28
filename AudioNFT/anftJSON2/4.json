@@ -1,0 +1,11 @@
+
+{
+    "Title": "The title of Audio NFT",
+    "image" : "ipfs://QmQVMdzsAePmdfedky7ZL1xcmWsjj8wK1ra5LCQxji37Gj/4.mp3",
+    "Description": "Audio NFT",
+    "Creator": "The name of the creator of the NFT",
+    "Date": "1683788219841",
+    "Type": "mp3",
+    "Media URL": "ipfs://QmQVMdzsAePmdfedky7ZL1xcmWsjj8wK1ra5LCQxji37Gj/4.mp3",
+    "Media Type": "Audio"
+}
